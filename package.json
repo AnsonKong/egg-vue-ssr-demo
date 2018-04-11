@@ -1,0 +1,65 @@
+{
+  "name": "egg-vue-ssr-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "egg": "^2.2.1",
+    "egg-mongoose": "^2.2.0",
+    "egg-passport": "^2.0.1",
+    "egg-passport-github": "^1.0.0",
+    "egg-scripts": "^2.5.0",
+    "element-ui": "^2.3.2",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vue-server-renderer": "^2.5.16",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0",
+    "webpack-merge": "^4.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "css-loader": "^0.28.11",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0",
+    "file-loader": "^1.1.11",
+    "mime": "^2.2.0",
+    "style-loader": "^0.20.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.3.0",
+    "webpack-dev-middleware": "^3.1.2",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-cluster-test",
+    "stop": "egg-scripts stop --title=egg-server-cluster-test",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

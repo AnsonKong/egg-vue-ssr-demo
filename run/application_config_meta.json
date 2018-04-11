@@ -1,0 +1,306 @@
+{
+  "keys": "C:\\nodejs\\egg-vue-ssr-demo\\config\\config.default.js",
+  "middleware": "C:\\nodejs\\egg-vue-ssr-demo\\config\\config.default.js",
+  "development": {
+    "ignoreDirs": "C:\\nodejs\\egg-vue-ssr-demo\\config\\config.default.js",
+    "watchDirs": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "mongoose": {
+    "url": "C:\\nodejs\\egg-vue-ssr-demo\\config\\config.default.js",
+    "options": {
+      "useMongoClient": "C:\\nodejs\\egg-vue-ssr-demo\\config\\config.default.js"
+    },
+    "loadModel": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
+  "passportGithub": {
+    "key": "C:\\nodejs\\egg-vue-ssr-demo\\config\\config.default.js",
+    "secret": "C:\\nodejs\\egg-vue-ssr-demo\\config\\config.default.js",
+    "callbackURL": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-passport-github\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "private": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport-github": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "element-ui": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "vue": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "vue-router": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "vue-server-renderer": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "vuex": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "vuex-router-sync": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "webpack-merge": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "webpack-node-externals": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "css-loader": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "file-loader": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "mime": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "style-loader": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "stylus": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "stylus-loader": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "vue-loader": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "vue-template-compiler": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "webpack": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "webpack-dev-middleware": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "stop": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "dev": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "debug": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "test": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "cov": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "lint": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "ci": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "autod": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "url": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+    "logging": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "C:\\nodejs\\egg-vue-ssr-demo\\node_modules\\egg\\config\\config.default.js"
+  }
+}
